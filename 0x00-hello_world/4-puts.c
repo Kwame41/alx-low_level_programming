@@ -1,10 +1,8 @@
-#include <stdio.h>
-/*
-*Main-Entry point
-*Return:Always successful
-*/
+#include <stdi0.h>
+#include<stlib.h>
+#include<time.h>
+
 int main(void)
-{
-puts("\"Programming is like building a multilingual puzzle");
-return(0);
+{       puts("\"Programming is like building a multilingual puzzle");
+        return(0);
 }	
