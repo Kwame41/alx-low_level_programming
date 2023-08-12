@@ -5,7 +5,6 @@
  * Return: Always Successful
  */
 int main(void)
-
 {
 	int a;
  	long int b;
