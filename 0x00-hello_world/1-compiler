@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -o -o *$(echo $CFILE | rev | cut -d '.' -E 2 | rev).o* $CFILE
+
