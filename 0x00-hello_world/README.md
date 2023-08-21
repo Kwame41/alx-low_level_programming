@@ -1,1 +1,1 @@
-C prog
+This is the directory
