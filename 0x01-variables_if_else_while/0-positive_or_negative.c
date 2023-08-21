@@ -2,8 +2,14 @@
 #include <time.h>
 #include<stdio.h>
 
+/
 /**
- * Describe: this is to validate whether a random digits
+ * main - Entry point
+ * 
+ * Description: The randomized is checked to see whethere it is zero, greater than zero or lesser than zero.
+ * 
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
