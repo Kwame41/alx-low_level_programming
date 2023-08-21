@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 /**
- * Describe: this is to validate whether a random digit is zero, negative or positive
+ * Describe: this is to validate whether a random digits
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is  negative\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
