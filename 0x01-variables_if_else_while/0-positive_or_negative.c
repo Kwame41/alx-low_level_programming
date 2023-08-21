@@ -2,19 +2,14 @@
 #include <time.h>
 #include<stdio.h>
 
-/
 /**
- * main - Entry point
- * 
- * Description: The randomized is checked to see whethere it is zero, greater than zero or lesser than zero.
- * 
- * 
+ * main - Entry point 
+ * Description: The randomized number is checked to see the type of integer.
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
