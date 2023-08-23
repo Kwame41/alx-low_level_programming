@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-	int dig_1, dig_2;
+	int x, y;
 
-	for (dig_1 = 0; dig_2 <= '9'; dig_1++)
+	for (x = 0; x < 9; x++)
 	{
-		for (dig_2 = 0; dig_1 <= '9'; dig_2++)
+		for (y = x + 1; y < 10; y++)
 		{
-			putchar((dig_1 % 10) + '0');
-			putchar((dig_2 % 10) + '0');
+			putchar((x % 10) + '0');
+			putchar((y % 10) + '0');
 
-			if (dig_1 == 8 && dig_2 == 9)
+			if (x == 8 && y == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
