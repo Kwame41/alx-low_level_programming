@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main -Prog Entry point
  * Description: This is a program about diversity of line features
- * Return - Always 0 sucess
+ * Return - Always 0 success
  */
 int main(void)
 {
@@ -11,12 +11,11 @@ int main(void)
 	for (a = 0; a <= 9; a++)
 	{
 		putchar(a + '0');
-		if (a ==  9)
+		if (a < 9)
 		{
-			continue;
+			putchar(',');
+			putchar(' ');
 		}
-		putchar(',');
-		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
