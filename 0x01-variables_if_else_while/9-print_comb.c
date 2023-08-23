@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -Prog Entry point
- * Description: This is a program about diversity of line features
+ * main - main function
+ *
  * Return - Always 0 success
  */
 int main(void)
@@ -18,5 +18,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return (0);
+	return 0;
 }
