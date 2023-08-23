@@ -1,22 +1,22 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include<stdio.h>
 /**
- * main - main function
- *
- * Return - Always 0 success
+ *main-Entry point
+ *Description:numbers and letters with various fetures
+ *Return:Always 0(Success)
  */
 int main(void)
 {
-	int a;
+	int b;
 
-	for (a = 0; a <= 9; a++)
+	for (b = 48; b <= 57; b++)
 	{
-		putchar(a + '0');
-		if (a < 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(b);
+		putchar(',');
+		putchar(" ");
 	}
 	putchar('\n');
 	return (0);
 }
+
