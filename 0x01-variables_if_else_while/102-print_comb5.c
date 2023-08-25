@@ -12,9 +12,9 @@ int main(void)
 	{
 		for (y = 0; y < 100; y++)
 		{
-			for (x < y)
-
+			if (x < y)
 			{
+
 				putchar((x / 10) + 48);
 				putchar((x % 10) + 48);
 				putchar(' ');
