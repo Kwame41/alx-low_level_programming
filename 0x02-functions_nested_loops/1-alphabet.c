@@ -2,12 +2,11 @@
 
 /**
  * print_ alphabet - Make the alphabet
- *
+ *Description for print alphabet is lowercased
  * Return - void
  */
 
-void print_alphabet(void) /*it is a void of the print alphabet*/ 
-
+void print_alphabet(void)
 {
 char ch;
 for (ch = 'a'; ch <= 'z' ; ch++)
