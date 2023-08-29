@@ -1,15 +1,23 @@
 #include "main.h"
 
 /**
- * print_ alphabet - Make the alphabet
- *Description for print alphabet is lowercased
+ *Main -  the definition of the function and it gives all the letters.
+ *
  * Return - void
  */
 
-void print_alphabet(void)
+
+
+void print_alphabet(void)/*it is used to give the letters*/
 {
-char ch;
-for (ch = 'a'; ch <= 'z' ; ch++)
-_putchar(ch);
-_putchar('\n');
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
+	_putchar('\n');
+
 }
