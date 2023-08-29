@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- *Main -  the definition of the function and it gives all the letters.
+ *Main -  Entry point
+ *
+ *Description - print_alphabet gives the full alphabet in lowercases.
  *
  * Return - void
  */
